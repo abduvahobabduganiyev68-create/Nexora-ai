@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #090a12;
+  --foreground: #f4f3fb;
 }
 
 @theme inline {
@@ -24,3 +24,19 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+* { box-sizing: border-box; }
+button, input, textarea, select { font: inherit; }
+button { cursor: pointer; }
+.markdown h1, .markdown h2, .markdown h3 { margin-top: 1.2em; margin-bottom: .55em; font-weight: 700; }
+.markdown h1 { font-size: 1.35em; }
+.markdown h2 { font-size: 1.2em; }
+.markdown h3 { font-size: 1.08em; }
+.markdown p { margin: .55em 0; }
+.markdown ul, .markdown ol { margin: .6em 0; padding-left: 1.4em; }
+.markdown ul { list-style: disc; }
+.markdown ol { list-style: decimal; }
+.markdown code { border-radius: 5px; background: rgba(255,255,255,.07); padding: .12em .35em; font-family: monospace; }
+.markdown pre { overflow-x: auto; border: 1px solid rgba(255,255,255,.08); border-radius: 12px; background: #10111a; padding: 1em; }
+.markdown pre code { background: transparent; padding: 0; }
+.markdown a { color: #a99cff; text-decoration: underline; }
